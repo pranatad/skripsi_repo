@@ -7,9 +7,7 @@ import base64
 
 app = Flask(__name__)
 
-# Set the path to the Tesseract executable
 
-# Function to preprocess and extract digits using Tesseract OCR
 def extract_digits(image):
     # Define ROI (Region of Interest) coordinates (x, y, w, h)
     roi = (200, 300, 1220, 700)
